@@ -8,4 +8,9 @@ describe("Request to root path",function(){
       .get("/")
       .expect(200,done);
   });
+  it("Returns a HTML element",function(done){
+    request(app)
+      .get("/")
+      .expect("Content-Type",/html/,done);
+  });
 });
