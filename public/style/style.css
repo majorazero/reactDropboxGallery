@@ -1,5 +1,21 @@
 .woop{
   background-color: #FBA8CF;
-  width:150px;
   text-align: center;
+  width: 600px;
+  padding: 50px;
+  margin: auto;
+}
+.gallery{
+  background-color: #D8B584;
+  border-radius: 25px;
+  width: 500px auto;
+  height: 250px;
+  margin: auto;
+}
+.portrait{
+  background-color: #AF7D55;
+  margin: 5px;
+  border-radius: 25px;
+  height: 200px;
+  width: 100px;
 }
