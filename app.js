@@ -10,6 +10,7 @@ console.log(2);
 dbx.filesListFolder({path:""})
   .then(function(response){
     console.log(response);
+    console.log(response.entries);
   })
   .catch(function(error){
     console.log(error);
