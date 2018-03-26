@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/majorazero/reactDropboxGallery#readme",
   "dependencies": {
+    "dropbox": "^4.0.1",
     "express": "^4.16.3"
   },
   "devDependencies": {
