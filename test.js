@@ -1,5 +1,9 @@
 let request = require("supertest");
 let app = require("./app");
+// require('isomorphic-fetch');
+// let dropbox = require("dropbox").Dropbox;
+// let dbx = new dropbox({accessToken: "4DOPxV7FGysAAAAAAAAMp_xQ3qo3vmNYzHJzRAuRnCmQPWmANT9-H2oOkgr_PJkX"});
+
 
 //mocha code
 describe("Request to root path",function(){
@@ -14,9 +18,9 @@ describe("Request to root path",function(){
       .expect("Content-Type",/html/,done);
   });
 });
-decribe("Request to Dropbox",function(){
-  let secret = "m555a1swkhbs6jf";
-  it("Requires a token",function(done){
-    
-  });
-});
+// describe("Request to Dropbox",function(){
+//   it("Requires a token",function(done){
+//     request(dbx.filesListFolder({path:""}))
+//       .expect(200,done);
+//   });
+// });
